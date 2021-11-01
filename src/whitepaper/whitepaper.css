@@ -1,0 +1,572 @@
+.white_text_mobile{
+    display: none;
+    text-align: center;
+    margin-top: 30px;
+}
+.white_text_mobile h3{
+    background: url(./assets/img/contract_bar_Y.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 315px;
+    height: 53px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+    padding-top: 8px;
+    font-size: 17px;
+    color: #D1C6C6;
+    font-family: Book Antiqua;
+    letter-spacing: 12px;
+    position: relative;
+    z-index: 2;
+}
+.white_text_mobile p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.p_t_60{
+    padding-top: 60px !important;
+}
+.pirate_whitepaper{
+    background: url("./assets/img/white_back.png") center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1920px;
+    height: 1200px;
+  }
+  
+.head_logo{
+    width:162px;
+    Height:122px;
+    padding-left:49px;
+    padding-top:38px;
+}
+.head_logo:hover,
+.head_logo:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+.head_logo:active {
+    transform: translateY(4px);
+  }
+.nav_bar{
+    background: url("./assets/img/menu_bar.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1273px;
+    height: 68px;
+    float: right;
+    margin-top: 44px;
+    display: flex;
+    position: relative;
+    z-index: 3;
+}
+.logo_home{
+    background: url("./assets/img/logo_home.png");
+    background-repeat: no-repeat;
+    width: 143px;
+    height: 99px;
+    margin-top: -17px;
+    margin-left: 90px;
+    padding-left: 42px;
+    padding-right: 40px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-family: Book Antiqua;;
+    color: white;
+}
+.logo_home:hover,
+.logo_home:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+.logo_home:active {
+    transform: translateY(4px);
+  }
+.logo_mark{
+    background: url("./assets/img/logo_marketplace.png");
+    background-repeat: no-repeat;
+    width: 206px;
+    height: 94px;
+    margin-top: -12px;
+    margin-left: 63px;
+    padding-left: 35px;
+    padding-right: 27px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-family: Book Antiqua;;
+    color: white;
+}
+.logo_mark:hover,
+.logo_mark:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+.logo_mark:active {
+    transform: translateY(4px);
+  }
+.logo_white{
+    background: url("./assets/img/logo_whitepaper.png");
+    background-repeat: no-repeat;
+    width: 179px;
+    height: 98px;
+    margin-top: -12px;
+    margin-left: 63px;
+    padding-left: 24px;
+    padding-right: 27px;
+    padding-top: 32px;
+    padding-bottom: 44px;
+    font-size: 20px;
+    font-family: Book Antiqua;;
+    color: white;
+}
+.logo_white:hover,
+.logo_white:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+.logo_white:active {
+    transform: translateY(4px);
+  }
+.logo_launch{
+    background: url("./assets/img/logo_launchpad.png");
+    background-repeat: no-repeat;
+    width: 202px;
+    height: 105px;
+    margin-top: -17px;
+    margin-left: 63px;
+    padding-left: 17px;
+    padding-right: 27px;
+    padding-top: 36px;
+    padding-bottom: 44px;
+    font-size: 20px;
+    font-family: Book Antiqua;;
+    color: white;
+}
+.logo_launch:hover,
+.logo_launch:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+.logo_launch:active {
+    transform: translateY(4px);
+  }
+.white_text{
+
+    text-align: center;
+}
+.white_text h3{
+    background: url("./assets/img/head_txt_bg.png");
+    background-repeat: no-repeat;
+    width: 1330px;
+    height: 157px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -17px;
+    padding-top: 92px;
+    font-size: 34px;
+    color: #D1C6C6;
+    font-family: Book Antiqua;
+    letter-spacing: 12px;
+    position: relative;
+    z-index: 2;
+}
+.w_paper_details{
+    background: url("./assets/img/text_board.png") center;
+    background-repeat: no-repeat;
+    width: 1272px;
+    height: 802px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -38px;
+    padding-top: 50px;
+}
+.w_paper_details h2{
+    font-size: 25px;
+}
+.w_paper_details h1{
+    font-size: 40px;
+}
+.left_arrow{
+    background: url("./assets/img/left_arrow.png");
+    width: 68px;
+    height: 38px;
+    background-repeat: no-repeat;
+    margin: 25px;
+    cursor: pointer;
+    outline: none !important;
+}
+.left_arrow:hover,
+.left_arrow:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+.left_arrow:active {
+    transform: translateY(4px);
+  }
+.right_arrow{
+    background: url("./assets/img/right_arrow.png");
+    width: 68px;
+    height: 38px;
+    background-repeat: no-repeat;
+    margin: 25px;
+    cursor: pointer;
+    border: none;
+    outline: none !important;
+}
+.right_arrow:hover,
+.right_arrow:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+.right_arrow:active {
+    transform: translateY(4px);
+  }
+
+
+.white_text p{
+    font-size: 20px;
+}
+.App-pages {
+    height: 650px;
+    width: 1200px;
+    perspective: 20000px;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.App-page {
+    border-radius: 8px;
+    color: #837160;
+    height: 100%;
+    background:#D9D1C9;
+    font-family: Book Antiqua;
+}
+
+.left_side{
+    margin-top: 30px;
+    float: left;
+    width: 50%;
+}
+.right_side{
+    margin-top: 30px;
+    float: right;
+    width: 50%;
+}
+.m_t_80{
+margin-top: 80px !important;
+}
+.m_t_60{
+    margin-top: 60px !important;
+}
+.m_t_100{
+    margin-top: 100px;
+}
+.page_num{
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 25%;
+}
+.into_content{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    line-height: 28px;
+}
+.percent_token{
+    text-align: center;
+}
+.table_content_area{
+    text-align: justify;
+    width: 373px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.content_next_into{
+    margin-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+.fort_by{
+    margin-top: 110px;
+    margin-right: 30px;
+    float: right;
+}
+.road_content{
+    width: 270px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 13px;
+    margin-top: 40px;
+}
+.ship_img{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.last_logo{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.thanks_pirate{
+    margin-top: 40px;
+}
+.line_center{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -30px;
+}
+.road_line{
+    margin-left: 110px;
+    position: absolute;
+    margin-top: 76px;
+    height: 200px;
+}
+.road_logo_f{
+    position: absolute;
+    margin-left: 97px;
+    margin-top: 84px;
+}
+.road_logo_s{
+    position: absolute;
+    margin-left: 97px;
+    margin-top: 338px;;
+}
+.road_line_2{
+    margin-left: 110px;
+    position: absolute;
+    margin-top: 31px;
+    height: 200px;
+}
+.road_logo_f_2{
+    position: absolute;
+    margin-left: 97px;
+    margin-top: 42px;
+}
+.road_logo_s_2{
+    position: absolute;
+    margin-left: 97px;
+    margin-top: 209px;
+}
+.road_logo_t_2{
+    position: absolute;
+    margin-left: 97px;
+    margin-top: 409px;
+}
+.road_logo_f_3{
+    position: absolute;
+    margin-left: 97px;
+    margin-top: 118px;
+}
+.road_line_3{
+    margin-left: 110px;
+    position: absolute;
+    margin-top: 36px;
+    height: 200px;
+}
+.btn_space{
+    margin-top: -17px;
+}
+.white_header_links a{
+    border:none;
+}
+.w_paper_details h2{
+    margin-bottom: 28px;
+    margin-top: 10px;
+}
+.to_ch_img{
+    margin-bottom: 25px;
+}
+.menu_tb{
+    display: none;
+}
+.ic_nav_sh_hi{
+    float: right;
+    margin-top: 25px;
+}
+.hide{
+    display: none;
+    position: relative;
+    z-index: 10;    
+}
+@media only screen and (max-width: 1438px) {
+    .nav_bar{
+        width: 852px;
+    }
+    .logo_home{
+        margin-left: 46px;
+    }
+    .logo_mark{
+        margin-left: 0px;
+    }
+    .logo_white{
+        margin-left: 0px;
+    }
+    .logo_launch{
+        margin-left: 0px;
+    }
+    .white_text h3 {
+        width: 740px;
+        background-size: contain;
+        height: 100px;
+        padding-top: 51px;
+        font-size: 20px;
+    }    
+    .w_paper_details {
+        width: 701px;
+        border: 3px solid #67513C;
+        border-radius: 6px;
+        height: 778px;
+    } 
+    ._2BXhR9UHrnlpm_nHq7-PdZ {
+        width: 680px;
+    } 
+    .white_text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .table_content_area{
+        width: 262px;
+    }
+    .road_content {
+        width: 177px;
+        margin-top: -4px;
+    }
+    .m_t_80 {
+        margin-top: 80px !important;
+    }
+    .road_line {
+        margin-left: 37px;
+        margin-top: 60px;
+    }
+    .road_logo_f {
+        margin-left: 24px;
+        margin-top: 65px;
+    }
+    .road_logo_s {
+        margin-left: 25px;
+        margin-top: 336px;
+    }
+    .road_line_2 {
+        margin-left: 34px;
+        margin-top: 2px;
+    }
+    .road_logo_f_2 {
+        margin-left: 21px;
+        margin-top: 8px;
+    }
+    .road_logo_s_2 {
+        margin-left: 21px;
+        margin-top: 169px;
+    }
+    .road_logo_t_2 {
+        margin-left: 21px;
+        margin-top: 368px;
+    }
+    .road_line_3 {
+        margin-left: 44px;
+        margin-top: -5px;
+    }
+    .road_logo_f_3 {
+        margin-left: 30px;
+        margin-top: 70px;
+    }
+    .to_ch_img{
+        margin-bottom: 55px;
+        margin-top: 14px;
+        width: 280px;        
+    }
+}
+@media only screen and (max-width: 1020px) {
+    .white_text h3{
+        background: url(./assets/img/contract_bar.png);
+        background-size: contain !important;
+        background-repeat: no-repeat;
+        height: 56px;
+        padding-top: 9px;
+        font-size: 20px;
+    }
+    .white_text{
+        margin-top: 30px;
+    }
+    .nav_bar {
+        display: none;
+    }
+    .show{display: block;}
+}
+@media only screen and (max-width: 760px) {
+    .white_text{
+        display: none;
+    }
+    .white_text_mobile{
+        display: block;
+    }
+    ._2BXhR9UHrnlpm_nHq7-PdZ{
+        width: 285px;
+    }
+    .w_paper_details{
+        width: 300px;
+    }
+    .page_num{
+        margin-left: 50%;
+    }
+    .content_next_into{
+        margin-top: 0px;
+        padding-top: 60px;
+    }
+    .w_paper_details h2{
+        padding-bottom: 28px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-top: 10px;
+    }
+    .into_content{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .to_ch_img{
+        width: 250px;
+    }
+    .road_content{
+        margin-left: 80px;
+        margin-top: -14px;
+    }
+    .last_pa_white_img{
+        width: 280px;
+    }
+    .road_logo_s{
+        margin-top: 348px;
+    }
+    .road_logo_f_2{
+        margin-top: 0px;
+    }
+    .road_logo_s_2{
+        margin-top: 166px;
+    }
+    .road_logo_t_2{
+        margin-top: 372px;
+    }
+    .road_logo_f_3 {
+        margin-top: 60px;
+    }
+    .fort_by {
+        margin-top: 53px;
+        margin-right: -11px;
+    }
+    .head_logo{
+        width: 125px;
+        padding-left: 17px;
+        padding-top: 15px;
+    }
+}

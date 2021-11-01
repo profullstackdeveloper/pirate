@@ -1,0 +1,451 @@
+.pirate_launchpad{
+    background: url("./assets/img/1.png") center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1920px;
+    height: fit-content;
+  }
+.pirate_headlogo{
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+.wallet_logo{
+    float: right;
+    margin-right: 56px;
+    margin-top: 56px;
+}
+.pirate_headlogo{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.token_exchange{
+    margin-top: 45px;
+}
+.token_exchange h3{
+    background: url("./assets/img/header_textbar.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 824px;
+    height: 76px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 13px;
+    color: #D1C6C6;
+    position: relative;
+    z-index: 1;
+    letter-spacing: 8px;
+    font-family: Book Antiqua;
+}
+.main_token_control{
+    background: url("./assets/img/token_set_board.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 764px;
+    height: 307px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -37px;
+    font-family: Book Antiqua;;
+}
+.left_side{
+    float: left;
+}
+.right_side{
+    float: right;
+}
+.exchange_f_line{
+    padding-top: 27px;
+    height: 109px;
+}
+.exchange_s_line{
+    padding-top: 7px;
+    height: 85px;
+}
+.exchange_t_line{
+    padding-top: 0px;
+    height: 100px;
+}
+.bnb_input{
+    color: white;
+    font-size: 25px;
+    padding-left: 30px;
+}
+.bnb_input input{
+    background: url("./assets/img/bnb_input.png");
+    background-size:contain ;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    color: white;
+    width: 248px;
+    height: 49px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.round_input{
+    color: white;
+    font-size: 25px;
+}
+.round_input input{
+    background: url("./assets/img/round_input.png");
+    background-size:contain ;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    color: white;
+    width: 248px;
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 18px;
+    padding-left: 10px;
+}
+.ARGH_input{
+    color: white;
+    font-size: 25px;
+    padding-left: 30px;
+}
+.ARGH_input input{
+    background: url("./assets/img/argh_input.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    color: white;
+    width: 252px;
+    height: 48px;
+    margin-left: 6px;
+    padding-left: 10px;
+}
+.remain_input{
+    color: white;
+    font-size: 25px;
+}
+.remain_input input{
+    background: url("./assets/img/round_input.png");
+    background-size:contain ;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    color: white;
+    width: 240px;
+    height: 48px;
+    margin-right: 3px;
+    margin-left: 6px;
+    padding-left: 10px;
+}
+.rate_inport{
+    color: white;
+    font-size: 25px;
+    padding-left: 30px;
+}
+.rate_inport input{
+    background: url("./assets/img/argh_input.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    color: white;
+    width: 247px;
+    height: 47px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.swap_btn button{
+    background: url("./assets/img/swap_btn.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none !important;
+    width: 115px;
+    height: 54px;
+    font-size: 17px;
+    color: white;
+    margin-left: 105px;
+    font-size: 19px;
+    padding-bottom: 6px;
+}
+.swap_btn{
+    outline: none;
+}
+.swap_btn:hover,
+.swap_btn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+.swap_btn:active {
+    transform: translateY(4px);
+  }
+.launchpad_discription{
+    margin-top: 550px;
+    font-family: Book Antiqua;
+}
+.launchpad_discription h3{
+    background: url("./assets/img/discription_head.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+    width: 839px;
+    height: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #D1C6C6;
+    padding-top: 20px;
+    letter-spacing: 5px;
+    position: relative;
+    z-index: 1;
+}
+.descrip_content{
+    background: url("./assets/img/discription_bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 812px;
+    height: 966px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -35px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 84px;
+    font-size: 20px;
+    color: white;
+}
+.general_faq{
+    margin-top: 344px;
+    font-family:Book Antiqua ;
+    padding-bottom: 200px;
+}
+.general_faq h3{
+    background: url("./assets/img/discription_head.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+    width: 768px;
+    height: 77px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #D1C6C6;
+    padding-top: 16px;
+    letter-spacing: 5px;
+    position: relative;
+    z-index: 1;
+}
+.general_content{
+    background: url("./assets/img/general.png") center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 730px;
+    height: fit-content;
+    padding-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -35px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 84px;
+    font-size: 20px;
+    color: white;
+}
+.styles_faq-row-wrapper__3vA1D{
+    background-color: unset !important;
+}
+@media only screen and (max-width: 900px) {
+    .token_exchange h3 {
+        width: 630px;
+        font-size: 20px;
+    }
+    .token_exchange {
+        margin-top: 45px;
+    }
+    .main_token_control {
+        width: 600px;
+        margin-top: -45px;
+    }
+    .round_input input {
+        width: 173px;
+    }
+    .exchange_s_line {
+        height: 72px;
+    }
+    .ARGH_input input {
+        width: 185px;
+        height: 38px;
+    }
+    .remain_input input {
+        width: 167px;
+        height: 42px;
+    }
+    .exchange_t_line {
+        height: 64px;
+    }
+    .rate_inport input {
+        width: 179px;
+        height: 36px;
+    }
+    .swap_btn button {
+        width: 110px;
+        margin-top: -10px;
+    }
+    .launchpad_discription {
+        margin-top: 150px;
+    }
+    .launchpad_discription h3 {
+        width: 630px;
+        padding-top: 17px;
+        font-size: 20px;
+    }
+    .descrip_content {
+        width: 580px;
+        margin-top: -50px;
+        padding-top: 60px;
+        font-size: 14px;
+    }
+    .general_faq {
+        margin-top: 10px;
+    }
+    .general_faq h3 {
+        width: 630px;
+        font-size: 20px;
+    }
+    .general_content {
+        width: 580px;
+        margin-top: -66px;
+        padding-top: 51px;
+    }
+    .bnb_input input{
+        width: 192px;
+    }
+    .exchange_f_line{
+        padding-top: 27px;
+        height: 88px;
+    }
+    .left_side{
+        margin-top: 15px !important;
+    }
+    .right_side{
+        margin-top: 15px !important;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .swap_btn button{
+        outline: none;
+    }
+    .pirate_headlogo{
+        width: 100px;
+        margin-left: 20px;
+    }
+    .wallet_logo {
+        width: 100px;
+        margin-right: 20px;
+    }
+    .token_exchange h3{
+        width: 300px;
+        height: 35px;
+        padding-top:4px;
+        font-size: 16px;
+    }
+    .main_token_control{
+        background: none;
+        background-color: #837160;
+        width: 274px;
+        height: 336px;
+        margin-top: -23px;
+        border: 2px solid #54473B;
+        border-radius: 0px 0px 5px 5px;
+    }
+    .bnb_input{
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    .rate_inport{
+        padding-left: 24px;
+    }
+    .rate_inport input{
+        margin-left: 13px;
+    }
+    .exchange_f_line{
+        padding-top: 6px;
+        height: 49px;
+    }
+    .left_side{
+        width: 100% !important;
+        float: none !important;
+        font-size: 14px !important;
+    }
+    .right_side{
+        width: 100% !important;
+        float: none !important;
+        font-size: 14px !important;
+        padding-left: 20px;
+    }
+    .round_input{
+        margin-top: 118px !important;
+    }
+    .round_input input{
+        margin-left: 10px;
+    }
+    .remain_input{
+        margin-top: 120px !important;
+    }
+    .ARGH_input{
+        padding-left: 22px;
+        margin-top: 25px !important;
+    }
+    .swap_btn button{
+        width: 70px;
+        margin-top: 86px;
+        height: 38px;
+        font-size: 16px;
+        margin-left: 90px;
+    }
+    .launchpad_discription{
+        margin-top: 100px;
+    }
+    .launchpad_discription h3{
+        width: 300px;
+        padding-top: 7px;
+        font-size: 14px;
+        height: 62px;
+    }
+    .descrip_content{
+        width: 280px;
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-top: 25px;
+        background: none;
+        background-color: #837160;
+        height: 854px;
+        border: 2px solid #54473B;
+        border-radius: 0px 0px 5px 5px;
+    }
+    .general_faq h3{
+        width: 300px;
+        font-size: 14px;
+        padding-top: 7px;
+        height : 60px;
+    }
+    .general_content{
+        width: 273px;
+        font-size: 14px;
+        padding-left: 17px;
+        padding-right: 17px;
+        background: none;
+        background-color: #837160 ;
+        border: 2px solid #54473B;
+        border-radius: 0px 0px 5px 5px;
+        height : fit-content;
+        padding-bottom: 70px;
+        padding-top: 11px;
+        margin-top: -54px;
+    }
+    .swap_btn{
+        padding-top: 10px;
+    }
+    .bnb_input input{
+        margin-left: 14px;
+        
+    }
+    .general_faq{
+        margin-top: 100px;
+    }
+}
