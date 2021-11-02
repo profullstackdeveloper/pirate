@@ -3,6 +3,7 @@ import "./launch.css";
 import Web3 from "web3";
 
 import PresaleSwap from "../contract/Presale_Swap.json";
+import InputValidation from './formValidation/InputValidation'
 
 const Exchange = () => {
   const [sendBnbAmount, setSendBnbAmount] = useState(0);
@@ -10,6 +11,7 @@ const Exchange = () => {
   const [bnbprice, setBnbPrice] = useState(0);
   const [arghValue, setArghValue] = useState(0);
   const [remainValue, setRemainValue] = useState(0);
+  const [bnbValid, setBnbValid] = useState(false);
   const web3 = new Web3(window.ethereum);
   const PresaleSwapInstance = new web3.eth.Contract(
     PresaleSwap.abi,
@@ -99,6 +101,15 @@ const Exchange = () => {
 
   //swap: 0x4FcB7BB4E16Cc3EADceCE9D6946fE958F7c34c57
   //token: 0x25d9762088b2676E84f75C87fb63501350B84d10
+  const bnbChange = (value) => {
+    console.log("bnbchange : ", value)
+    setSendBnbAmount(value)
+    if( parseFloat(value) >= 0.3 && parseFloat(value) <= 3 ){
+      setBnbValid(true);
+    } else {
+      setBnbValid(false);
+    }
+  }
 
   return (
     <div className="token_exchange">
@@ -107,10 +118,7 @@ const Exchange = () => {
         <div className="exchange_f_line">
           <div className="left_side bnb_input">
             BNB
-            <input
-              value={sendBnbAmount}
-              onChange={(e) => setSendBnbAmount(e.target.value)}
-            />
+            <InputValidation setBnbAmount = {bnbChange} value = {sendBnbAmount} valid = {bnbValid}></InputValidation>
           </div>
           <div className="right_side round_input">
             ROUND
@@ -138,8 +146,8 @@ const Exchange = () => {
               }
             ></input>
           </div>
-          <div className="right_side swap_btn" onClick={() => clickSwap()}>
-            <button>SWAP</button>
+          <div className="right_side swap_btn" onClick={ () => clickSwap()}>
+            <button disabled = {!bnbValid}>SWAP</button>
           </div>
         </div>
       </div>
