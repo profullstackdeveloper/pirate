@@ -104,7 +104,7 @@ const Exchange = () => {
   const bnbChange = (value) => {
     console.log("bnbchange : ", value)
     setSendBnbAmount(value)
-    if( parseFloat(value) >= 0.3 && parseFloat(value) <= 3 ){
+    if( parseFloat(value) >= 0.2 && parseFloat(value) <= 3 ){
       setBnbValid(true);
     } else {
       setBnbValid(false);
