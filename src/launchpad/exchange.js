@@ -10,24 +10,27 @@ const Exchange = () => {
   const [bnbprice, setBnbPrice] = useState(0);
   const [arghValue, setArghValue] = useState(0);
   const [remainValue, setRemainValue] = useState(0);
+  const web3 = new Web3(window.ethereum);
+  const PresaleSwapInstance = new web3.eth.Contract(
+    PresaleSwap.abi,
+    "0x4FcB7BB4E16Cc3EADceCE9D6946fE958F7c34c57"
+  );
+  console.log("PresaleSwapInstance : ", PresaleSwapInstance)
   useEffect(() => {
-    const web3 = new Web3(window.ethereum);
-    const PresaleSwapInstance = new web3.eth.Contract(
-      PresaleSwap.abi,
-      "0x4FcB7BB4E16Cc3EADceCE9D6946fE958F7c34c57"
-    );
-    PresaleSwapInstance.methods
-    .getTokenAmount()
-    .call()
-    .then((res) => {
-      setRemainValue(res);
-    });
-    PresaleSwapInstance.methods
-      .getTokenPrice()
+    if(PresaleSwapInstance) {
+      
+      PresaleSwapInstance.methods
+      .getTokenAmount()
       .call()
       .then((res) => {
-        setTokenPrice(res);
-      }, []);
+        setRemainValue(res);
+      });
+      PresaleSwapInstance.methods
+        .getTokenPrice()
+        .call()
+        .then((res) => {
+          setTokenPrice(res);
+        });
 
     PresaleSwapInstance.methods
       .getBNBPrice()
@@ -36,6 +39,7 @@ const Exchange = () => {
         setBnbPrice(res);
         console.log("price has been set : ", tokenPrice, bnbprice);
       });
+    }
   }, []);
 
   useEffect(() => {
@@ -47,22 +51,19 @@ const Exchange = () => {
     );
 
 
-    PresaleSwapInstance.methods
+    if(PresaleSwapInstance) {
+      PresaleSwapInstance.methods
       .getBNBPrice()
       .call()
       .then((res) => {
         setBnbPrice(res);
         console.log("price has been set : ", tokenPrice, bnbprice);
       });
+    }
   }, [sendBnbAmount]);
 
-  const web3 = new Web3(window.ethereum);
-  const PresaleSwapInstance = new web3.eth.Contract(
-    PresaleSwap.abi,
-    "0x4FcB7BB4E16Cc3EADceCE9D6946fE958F7c34c57"
-  );
-
   const clickSwap = async () => {
+    console.log("current provider : ", web3.givenProvider())
     if (window.ethereum) {
       await window.ethereum.request({ method: "eth_requestAccounts" });
       let accounts = await window.ethereum.request({ method: "eth_accounts" });
