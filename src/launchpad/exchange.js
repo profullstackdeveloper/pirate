@@ -11,6 +11,7 @@ const Exchange = () => {
   const [bnbprice, setBnbPrice] = useState(0);
   const [arghValue, setArghValue] = useState(0);
   const [remainValue, setRemainValue] = useState(0);
+  const [errorMessage, setErrorMessage] = useState("");
   const [bnbValid, setBnbValid] = useState(false);
   const web3 = new Web3(window.ethereum);
   const PresaleSwapInstance = new web3.eth.Contract(
@@ -95,7 +96,6 @@ const Exchange = () => {
         });
     }
   };
-
   // swap contract: 0x2bF16b421172E3649ce6B5cAACb21D3231600f9d
   // token contract: 0x94b779Fc735203dBB1D300c89B3684E60b84Ad84
 
@@ -106,10 +106,16 @@ const Exchange = () => {
     setSendBnbAmount(value)
     if( parseFloat(value) >= 0.2 && parseFloat(value) <= 3 ){
       setBnbValid(true);
+      setErrorMessage("")
     } else {
+      
+      parseFloat(value) < 0.2 ? setErrorMessage("Minimum value is 0.2") : setErrorMessage("Maximum value is 3");
+      console.log("error Message : ", errorMessage)
       setBnbValid(false);
     }
   }
+
+  
 
   return (
     <div className="token_exchange">
@@ -117,14 +123,14 @@ const Exchange = () => {
       <div className="main_token_control">
         <div className="exchange_f_line">
           <div className="left_side bnb_input">
-            <InputValidation setBnbAmount = {bnbChange} value = {sendBnbAmount} valid = {bnbValid}></InputValidation>
+            <InputValidation setBnbAmount = {bnbChange} value = {sendBnbAmount} valid = {bnbValid} errorMessage = {errorMessage}></InputValidation>
           </div>
           <div className="right_side round_input">
             ROUND
             <input disabled value={"1"}></input>
           </div>
         </div>
-        <div className="exchange_s_line">
+        <div className="exchange_s_line" style={{marginTop:'10px'}}>
           <div className="left_side ARGH_input">
             ARGH
             <input disabled value={arghValue}></input>
