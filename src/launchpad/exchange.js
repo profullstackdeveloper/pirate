@@ -117,7 +117,6 @@ const Exchange = () => {
       <div className="main_token_control">
         <div className="exchange_f_line">
           <div className="left_side bnb_input">
-            BNB
             <InputValidation setBnbAmount = {bnbChange} value = {sendBnbAmount} valid = {bnbValid}></InputValidation>
           </div>
           <div className="right_side round_input">
